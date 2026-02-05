@@ -68,6 +68,7 @@
       position: relative;
     }
 
+    /* Popup */
     #popup {
       position: fixed;
       inset: 0;
@@ -103,6 +104,7 @@
       100% { transform: scale(1); opacity: 1; }
     }
 
+    /* Hearts */
     .heart {
       position: fixed;
       bottom: -20px;
@@ -119,17 +121,19 @@
 
 <body>
   <div id="container">
-    <div id="question">Will you be my Valentine, Ahmed ❤️?</div>
+    <div id="question">Will you be my Valentine, Sara ❤️?</div>
     <div id="buttons">
       <button id="yesButton" class="button">Yes 💖</button>
       <button id="noButton" class="button">No 😅</button>
     </div>
   </div>
 
+  <!-- Popup -->
   <div id="popup">
     <div id="popupContent">
       <h2>It’s a date. Fact. 💕</h2>
       <img
+        id="valentineGif"
         src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdnJ4d2dhYXo2cWIwdWYxbDlqbWIyb3pmcDcwcGIya3hyeDcxbzJqbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KMqctZOpIQUSX9uABq/giphy.gif"
         alt="Valentine GIF"
       >
